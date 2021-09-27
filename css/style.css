@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+.nav-bar{
+    margin: 0;
+    position: fixed;
+    padding: 5px;
+    z-index: 1;
+    top: 0;
+    background-color: aquamarine;
+    width: 100%;
+}
+.nav-bar2{
+    display: flex;
+    justify-content:space-between;
+}
+.nav-bar-left {
+    display: flex;
+    padding: 5px;
+}
+.nav-bar-right {
+    display: flex;
+}
+.nav-bar-left a{
+    padding: 10px;
+}
+.nav-bar-right a{
+    padding: 10px;
+}
+.ofr-section1{
+    position: relative;
+    top: 50px;
+    padding: 10px;
+    background-color: aquamarine;
+    display: flex;
+    margin: 70px;
+    justify-content: space-around;
+}
+.ofr-section2{
+    margin-left: 280px;
+}
+.cat-sections{
+    margin-left:110px;
+}
+.line1{
+    text-align:justify;
+    font-size: 30px;
+}
+.cat-title{
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 8px solid aquamarine;
+    width: 150px;
+}
+.footer{
+    padding: 5px;
+    margin: 0 auto;
+    width: 100%;
+    background-color: aquamarine;
+}
+.ftr-cntnr{
+    display:flex;
+}
+.frt-grids{
+    display: flex;
+    margin-top:10px;
+    margin-left: 100px;
+}
+.list > ul, li, a {
+    text-decoration: none;
+    list-style-type: none;
+}
+.offer-section3{
+    margin-top: 30px;
+    margin-left: 105px;
+}
+.prev, .next {
+    cursor: pointer;
+    position: relative;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
